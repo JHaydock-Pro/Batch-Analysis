@@ -4,7 +4,7 @@ Scans batch farm hosts based on status in mimic. Gathers some basic info for sto
 | Option | Default | Effect |
 |--------|---------|--------|
 | -u, --url | http://mimic.gridpp.rl.ac.uk/views/view-logical-workers.php | URL to get list of batch farm workers. |
-| -a, -aqurl | http://aquilon.gridpp.rl.ac.uk/cgi-bin/report/host_personality_branch | URL to get extra information from Aquilon. |
+| -a, --aqurl | http://aquilon.gridpp.rl.ac.uk/cgi-bin/report/host_personality_branch | URL to get extra information from Aquilon. |
 | -s, --status | critical | Comma separated list of statuses of hosts to get info from. eg. critical, downtime, ok |
 | -d, --ignore-downtime | | Set if any hosts with downtime should be ignored. (Recommended if searching for 'down' status.)  |
 | -n, --ignore-notes | | Set if any hosts with notes in mimic should be ignored. |
